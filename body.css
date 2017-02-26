@@ -1,0 +1,42 @@
+main {
+  z-index: -999;
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 868px solid transparent;
+  border-right: 630px solid transparent;
+  border-bottom: 630px solid #f2f2f2;
+  position: fixed;
+  bottom: 0;
+  z-index: 0;
+}
+
+.project-phase-card {
+  width: 300px;
+  height: 200px;
+  color: lightgray;
+  opacity: .5;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+.copy-container {
+  width: 250px;
+  height: 150px;
+  color: #ffffff;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  position: relative;
+  margin: 8% auto;
+}
+
+#white-board {
+  background: url('./white-board.png') no-repeat center;
+  background-size: cover;
+}
